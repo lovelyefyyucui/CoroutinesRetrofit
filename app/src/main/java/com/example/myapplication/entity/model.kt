@@ -6,7 +6,7 @@ data class BaseResponse<T>(
     val errorMsg: String,
 ) {
     fun isSuccessful(): Boolean {
-        return errorCode == 1
+        return errorCode == 0
     }
 }
 
