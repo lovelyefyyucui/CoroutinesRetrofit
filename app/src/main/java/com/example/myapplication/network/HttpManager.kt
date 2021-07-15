@@ -9,9 +9,10 @@ object HttpManager {
     private const val BASE_URL = "https://wanandroid.com/"
 
     private val okHttpClient: OkHttpClient by lazy {
-        OkHttpClient.Builder()
+        val okHttpClient = OkHttpClient.Builder()
             .addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
             .build()
+        okHttpClient
     }
 
     private val retrofit = Retrofit.Builder()
