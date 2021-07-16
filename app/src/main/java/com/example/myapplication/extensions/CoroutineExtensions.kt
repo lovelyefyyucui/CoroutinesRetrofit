@@ -9,6 +9,9 @@ import androidx.lifecycle.viewModelScope
 import com.example.myapplication.exceptions.coroutineExceptionHandler
 import kotlinx.coroutines.*
 
+/**
+ * 协程扩展
+ */
 inline fun AppCompatActivity.requestMain(noinline block: suspend CoroutineScope.() -> Unit) {
     lifecycleScope.launch(coroutineExceptionHandler) {
         block.invoke(this)

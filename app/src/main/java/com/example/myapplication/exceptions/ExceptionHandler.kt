@@ -11,6 +11,9 @@ import java.net.UnknownHostException
 import java.text.ParseException
 import javax.net.ssl.SSLHandshakeException
 
+/**
+ * 异常处理
+ */
 object ExceptionHandler {
     private const val HTTP = "http"
 
