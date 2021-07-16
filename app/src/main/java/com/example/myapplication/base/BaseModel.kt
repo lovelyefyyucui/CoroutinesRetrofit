@@ -1,4 +1,4 @@
-package com.example.myapplication.network
+package com.example.myapplication.base
 
 import com.example.myapplication.entity.BaseResponse
 import com.example.myapplication.entity.DataResult

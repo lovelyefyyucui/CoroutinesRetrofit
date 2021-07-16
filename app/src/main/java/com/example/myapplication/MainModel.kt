@@ -5,7 +5,7 @@ import com.example.myapplication.entity.BaseResponse
 import com.example.myapplication.entity.DataResult
 import com.example.myapplication.entity.Search
 import com.example.myapplication.network.Api
-import com.example.myapplication.network.BaseModel
+import com.example.myapplication.base.BaseModel
 import com.example.myapplication.network.HttpManager
 
 class MainModel : BaseModel() {
